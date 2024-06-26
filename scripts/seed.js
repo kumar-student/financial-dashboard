@@ -6,6 +6,7 @@ const {
   users,
 } = require('../app/lib/placeholder-data.js');
 const bcrypt = require('bcrypt');
+require('dotenv').config();
 
 async function seedUsers(client) {
   try {
